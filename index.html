@@ -1,0 +1,141 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+<link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+<title>CodePen - Editor Theme</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Overpass+Mono'>
+<style>
+    body {
+  text-align: center;
+  background: #1b2225;
+  padding: 50px 0;
+  color: #999;
+  font-family: "fira code", "Overpass Mono", monospace;
+  font-size: 1em;
+}
+:before,
+:after {
+  font-weight: 100;
+}
+a {
+  color: #4cadc9;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+a:hover {
+  border-bottom: 1px dotted;
+}
+a:before {
+  content: "[| ";
+  color: #eee;
+}
+a:after {
+  content: " |]";
+  color: #eee;
+}
+
+h1 {
+  color: #cdff8e;
+  font-weight: 400;
+}
+h1:before {
+  content: "/*** ";
+  color: #98a8b5;
+}
+h1:after {
+  content: " ***/";
+  color: #98a8b5;
+}
+h2 {
+  margin: 0 0 10px 0;
+  font-style: italic;
+}
+h2:before {
+  content: "-----------";
+  color: rgba(0, 0, 0, 0.4);
+  display: block;
+}
+h2:after {
+  content: "-----------";
+  color: rgba(0, 0, 0, 0.4);
+  display: block;
+}
+
+p:before {
+  content: "<!-- ";
+  color: #e0d78b;
+}
+p:after {
+  content: " -->";
+  color: #e0d78b;
+}
+
+footer {
+  color: #98a8b5;
+  font-size: 0.8em;
+  padding: 2em 0;
+}
+footer:before {
+  content: "##";
+  color: #b37775;
+}
+footer:after {
+  content: "##";
+  color: #b37775;
+}
+
+blockquote {
+  width: 30%;
+  min-width: 320px;
+  padding: 25px;
+  margin: 15px auto;
+  background: #62658a;
+  color: #fff;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.4);
+}
+blockquote a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #b299ff;
+  padding: 3px;
+  background: rgba(0, 0, 0, 0.2);
+}
+blockquote a:hover {
+  background: rgba(0, 0, 0, 0.4);
+  border: 0;
+}
+
+blockquote a:before {
+  content: "<=";
+}
+blockquote a:after {
+  content: "=>";
+}
+
+  </style>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+</head>
+<body translate="no">
+<h1>TREMENDOUS HEADING</h1>
+<p>This is a suheading text</p>
+<blockquote>
+<h2>Inspiring Subtitle</h2>
+Blockquote full of text lorem ipsum etc.<br> <a href=#>Accept</a></blockquote>
+<a href="#">Leet text link</a>
+<footer>Copy & footer text</footer>
+</body>
+</html>
+
